@@ -1,5 +1,4 @@
-class ZigzagConversion {
-
+class Solution {
     public String convert(String s, int numRows) {
         if (numRows == 1 || numRows >= s.length()) {
             return s;
@@ -28,6 +27,5 @@ class ZigzagConversion {
             }
         }
 
-        return result.toString();
-    }
+        return result.toString();}
 }
